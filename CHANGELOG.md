@@ -1,7 +1,19 @@
 # Changelog
 
+## 3.9.0
+
+### Minor Changes
+
+-   f21bcb2: Add Enable extended thinking for LiteLLM provider
+
+### Patch Changes
+
+-   8310a3d: chore(bedrock): Prompt cache is GA
+-   cac0309: Fix issue with DeepSeek API provider token counting + context management
+-   d490029: Added permissions checks, error handling, and git options to deal with cases where the entire workspace or specific files within it cannot be accessed. These issues were preventing checkpoints from working correctly, or causing checkpoints to hang.
+
 ## [3.8.6]
- 
+
 -   Add UI for adding remote servers
 -   Add Mentions Feature Guide and update related documentation
 -   Fix bug where menu would open in sidebar and open tab
